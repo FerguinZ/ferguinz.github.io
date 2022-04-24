@@ -48,9 +48,32 @@ padding: 0px;
 }
 
 .btn{
-  margin-top: 2rem;
+  margin-top: 3rem;
+  width: 9rem;
 }
 .gif{
   width: 10rem;
+
+}
+.aboutme{
+  height: 500px;
+}
+.acercademi{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.devian{
+  margin-top: 20rem;
+}
+.gif2{
+  width: 22rem;
+}
+.titulo{
+  font-family: 'Courier New', Courier, monospace;
   
+}
+.gif3{
+  width: 5rem;
+}
+.ilustrador{
+  margin-top: 4rem;
 }
