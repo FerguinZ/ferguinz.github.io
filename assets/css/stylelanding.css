@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgb(185, 61, 30);
+    padding: 1px;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  li, a {
+    text-decoration: none;
+    color: rgb(180, 237, 224);
+    margin-right: 20px;
+  }
+  
+  nav, ul, li, a {
+    text-align: right;   
+    font-size: 25px;
+  }
+  
+.hero{
+    background-image: url(https://i.ibb.co/5MCBM7v/sadcat.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    background-position: center;
+    height: 600px;
+}
+body{
+    background-color: beige;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+img {
+    display: block;
+}
+.articulo1{
+    display: flex;
+}
+
+h1{
+    font-family: 'Cabin', sans-serif;
+    color: rgb(245, 242, 91);
+    font-size: 120px;
+    padding-top: 180px;
+    text-align: center;
+    margin-top: 1px;
+}
+h2{
+    color: rgb(245, 242, 91);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/*stilos de productos*/
+
+.contenedor_productos{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+}
+.producto{
+    border: 3px solid #ccc;
+    padding: 20px;
+    text-align: center ;
+}
+.product__img{
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+.product__title{
+    text-align: center;
+    padding: 10px;
+}
+.product__price{
+    color: #ff4e00;
+    font-weight: bold;
+    padding: 10px;
+}
+.descripcion{
+    text-align: center;
+    padding: 10px;
+}
+.icons{
+    margin: 10px;
+
+}
+/* footer */
+footer{
+    background-color: #ff4e00;
+    margin-top: 100px;
+    color: white;
+}
+
+#contactos{
+    background-color: #ff4e00;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
