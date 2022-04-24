@@ -4,7 +4,7 @@ body {
 
 }
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/HEADER.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -41,5 +41,16 @@ body {
 padding: 0px;
 }
 .logoadc{
-  width: 20rem;
+  width: 14rem;
+}
+.titulo{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+  margin-top: 2rem;
+}
+.gif{
+  width: 10rem;
+  
 }
