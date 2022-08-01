@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NAVICATS</title>
-  <link rel="shortcut icon" href="assets/img/ADC2.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/img/cat.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -20,8 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Montserrat:wght@200&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/stylelanding.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/landinstyle.css">
 </head>
 
 <body>
@@ -33,84 +32,58 @@
       <li><a href="#">Contacto</a></li>
     </ul>
   </nav>
-
-  <main class="hero">
-    <h1>Deco Navicats</h1>
-    <h2>decoraciones navideñas gatunas</h2>
+  <section>
+    <main class="hero">
+      <h1>Deco Navicats</h1>
+      <h2>decoraciones navideñas gatunas</h2>
+  </section>
   </main>
-  <section class="contenedor_productos">
-    <div class="producto">
-      <img src="assets/img/gatoluz.png" alt="" class="product__img">
-      <div>
-        <h3 class="product__title">Gato Luces</h3>
-        <span class="product__price">$555</span>
-        <div>
-          <h4 class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis incidunt dicta
-            autem aliquam ea consequuntur, commodi molestias neque? Iste debitis quia dolorum minus accusantium quisquam
-            facere dolores aliquam, repudiandae odio!</h4>
-        </div>
-      </div>
-      <div class="icons">
-        <i class="fa-solid fa-cart-plus"></i>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="assets/img/gatopelota.png" alt="" class="product__img">
-      <div>
-        <h3 class="product__title">Gato Pelotas</h3>
-        <span class="product__price">$555</span>
-        <div>
-          <h4 class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis incidunt dicta
-            autem aliquam ea consequuntur, commodi molestias neque? Iste debitis quia dolorum minus accusantium quisquam
-            facere dolores aliquam, repudiandae odio!</h4>
-        </div>
-      </div>
-      <div class="icons">
-        <i class="fa-solid fa-cart-plus"></i>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="assets/img/gatoadorno.png" alt="" class="product__img">
-      <div>
-        <h3 class="product__title">Gato Adorno</h3>
-        <span class="product__price">$555</span>
-        <div>
-          <h4 class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis incidunt dicta
-            autem aliquam ea consequuntur, commodi molestias neque? Iste debitis quia dolorum minus accusantium quisquam
-            facere dolores aliquam, repudiandae odio!</h4>
-        </div>
-      </div>
-      <div class="icons">
-        <i class="fa-solid fa-cart-plus"></i>
-      </div>
-    </div>
-    <div class="producto">
-      <img src="assets/img/gorrodegato.png" alt="" class="product__img">
-      <div>
-        <h3 class="product__title">Gato Gorro</h3>
-        <span class="product__price">$555</span>
-        <div>
-          <h4 class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis incidunt dicta
-            autem aliquam ea consequuntur, commodi molestias neque? Iste debitis quia dolorum minus accusantium quisquam
-            facere dolores aliquam, repudiandae odio!</h4>
-        </div>
-      </div>
-      <div class="icons">
-        <i class="fa-solid fa-cart-plus"></i>
-      </div>
+
+  <section>
+    <div>
+      <table class="productos">
+        <tbody>
+          <tr>
+            <td>
+              <img class="imagenproducto" src="assets/img/gatoadorno.png" alt="gatoadorno">
+            </td>
+            <td>
+              <p>producto 1</p>
+              <p>Precio: $9.990</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="imagenproducto" src="assets/img/gatoluz.png" alt="gatoluz">
+            </td>
+            <td>
+              <p>producto 2</p>
+              <p>Precio: $5.990</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="imagenproducto" src="assets/img/gatopelota.png" alt="gatopelota">
+            </td>
+            <td>
+              <p>producto 3</p>
+              <p>Precio: $4.990</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
-  <i></i>
-  
-
-  <footer>
-    <ul id="contactos">
-      <li><a href="https://github.com">+56964252196</a></li>
-      <li><a href="#" class="contacto">Contacto</a> </li>
-      <li><a href="https://github.com" class="contacto"><i class="fab fa-github"></i></a></li>
-      <li><a href="https://linkedin.com" class="contacto"><i class="fab fa-linkedin"></i></a></li>
-    </ul>
-  </footer>
+  <section>
+    <footer>
+      <ul id="contactos">
+        <li><a href="https://github.com">+56964252196</a></li>
+        <li><a href="#" class="contacto">Contacto</a> </li>
+        <li><a href="https://github.com" class="contacto"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://linkedin.com" class="contacto"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </footer>
+  </section>
 </body>
 
 </html>
